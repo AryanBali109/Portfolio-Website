@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+/* main section5 styling */
+#section5{
+    padding: 20px 100px;
+    /* border-bottom: 5px solid black; */
+}
+/* section5 heding styling */
+#section5-heading{
+    color: #000;
+    font-size: 40px;
+    font-weight: 600;
+}
+/* section5 heading para styling */
+#section5heading-para{
+    margin-top: 5px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* form secyion styling */
+#contact-box{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 34px 0px 0px 0px; */
+    margin-top: 25px;
+}
+input, textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+
+/* form{
+    width: 40%;
+} */
+
+label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+
+}
+.form-group{
+    width: 500px;
+}
+/* button stylr */
+.section5-btnss{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(18 111 204);
+    color: #fff;
+    font-size: 17px;
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+}
+/* RESPONSIVE STYLING */
+@media screen and (max-width:426px) {
+    #section5{
+        padding: 20px 18px;
+    }
+    .form-group{
+        width: 300px;
+    }
+}

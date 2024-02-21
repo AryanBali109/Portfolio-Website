@@ -1,0 +1,143 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* navigation bar */
+.navbar{
+  /* position: relative; */
+  background-color: black;
+  padding: 20px 10px;
+  /* z-index: 0; */
+}
+.nav-heading{
+  color: white;
+}
+.li .a:hover{
+
+  border-bottom: 2px solid white;
+}
+.li .a{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  transition: all ;
+  transition-duration: 5s;
+  transition-timing-function: ease-in-out;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-ul{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* menue setting */
+.menu{
+  display: none;
+}
+.f-ul{
+  display: block;
+}
+#menupngimg{
+  background-color: #000;
+  border: none;
+}
+@media screen and (max-width:900px){
+  .menu{
+    display: block;
+  }
+  .nav-ul{
+    display: none;
+  }
+}
+/* navbar image style */
+.m-img{
+  height: 48px;
+  width: 48px;
+}
+/* navar button design */
+.m-bar-btn{
+  background-color: black;
+  color: white;
+  font-size: 35px;
+  border: none;
+}
+
+/* mobile navbar collapse desiging */
+.s-ul{
+  /* border-left: 1px solid #4c4a4a; */
+  border-right: 1px solid #4c4a4a;
+  border-bottom: 1px solid #4c4a4a;
+  /* display:  flex; */
+  position: absolute;
+  /* z-index: 1; */
+  background-color: #fff;
+  width: 100%;
+  /* height: 60vh; */
+  flex-direction: column;
+  display: none;
+}
+@media screen and (max-width:900px){
+  .s-ul{
+    display: flex;
+  }
+}
+ .cl-a{
+  /* padding: 10px; */
+  font-size: 20px;
+  padding: 10px;
+  border-bottom: 2px solid  #8b8383;
+  /* border-right: 2px solid  #8b8383; */
+}
+.cl-1{
+  text-decoration: none;
+  color: black;
+
+}
+.cl-a:hover{
+  background-color: rgb(196, 187, 187);
+}
+/*
+.cl-a:hover .cl-1{
+  color: #fff;
+} */

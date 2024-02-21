@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* main section3 styling */
+#Section3{
+    padding: 20px 100px;
+    border-bottom: 5px solid black;
+}
+/* section3 heding styling */
+#section3-heading{
+    color: #000;
+    font-size: 40px;
+    font-weight: 600;
+}
+/* section3 heading para styling */
+#section3heading-para{
+    margin-top: 5px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* section container styling */
+.section3-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* section box styling */
+.section3boxes{
+    margin-top: 25px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 4px;
+}
+
+/* sectionimage styling */
+.section-images{
+    height: 80px;
+    width: 80px;
+}
+
+/* section para styling */
+.section-para{
+    font-size: 20px;
+    font-weight: 600;
+}
+/* box1 styling */
+#Section3-box1{
+    box-shadow: 5px 4px 6px 0px #f97316, -4px 5px 6px 0px #f97316;
+}
+/* box2 styling */
+#Section3-box2{
+    box-shadow: 5px 4px 6px 0px #3b82f6, -4px 5px 6px 0px #3b82f6;
+}
+/* box3 styling */
+#Section3-box3{
+    box-shadow: 5px 4px 6px 0px  #eab308, -4px 5px 6px 0px #eab308;
+}
+/* box4 styling */
+#Section3-box4{
+    box-shadow: 5px 4px 6px 0px #2563eb, -4px 5px 6px 0px #2563eb;
+
+}
+/* box5 styling */
+#Section3-box5{
+    box-shadow: 5px 4px 6px 0px #d36115, -4px 5px 6px 0px #d36115;
+
+}
+/* box6 styling */
+#Section3-box6{
+    box-shadow: 5px 4px 6px 0px #200f03, -4px 5px 6px 0px #200f03;
+
+}
+/* box7 styling */
+#Section3-box7{
+    box-shadow: 5px 4px 6px 0px #17b3c7, -4px 5px 6px 0px #17b3c7;
+
+}
+/* box8 styling */
+#Section3-box8{
+    box-shadow: 5px 4px 6px 0px #0758c9, -4px 5px 6px 0px #0758c9;
+
+}
+/* box9 styling */
+#Section3-box9{
+    box-shadow: 5px 4px 6px 0px #562c9d, -4px 5px 6px 0px #562c9d;
+
+}
+
+
+
+/* responsive  styling */
+
+@media screen and (max-width:426px){
+    #Section3{
+        padding: 20px 25px;
+    }
+    .section3-container{
+        justify-content: space-around;
+    }
+}

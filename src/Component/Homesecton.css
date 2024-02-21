@@ -1,0 +1,108 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#prof-img{
+    width: 40%;
+    height: 600px;
+    /* overflow: hidden; */
+}
+#Homeimg{
+    /* height: 40vh; */
+    /* width: 100%; */
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+#section1{
+    background-color: #f2f1f1d9;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* border: 1px solid black; */
+}
+#para1{
+    text-align: start;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 15px 75px;
+    padding-bottom: 0px;
+    line-height: 0.9;
+}
+.byttons{
+    /* border: none; */
+    padding: 10px 75px;
+    padding-bottom: 0px;
+    /* line-height: 1; */
+    /* overflow: hidden; */
+}
+.btnss{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10%;
+    background-color: rgb(18 111 204);
+    text-decoration: none;
+    overflow: hidden;
+    transition: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.3s;
+    /* transition-property: ; */
+    margin-right: 3px;
+}
+.btnss:hover{
+    scale: 1.1;
+}
+.container1{
+    width: 60%;
+}
+#para2{
+    font-weight: 400;
+    padding: 10px 75px;
+    text-align: start;
+    font-size: 30px;
+    padding-bottom: 0px;
+    /* line-height: 0.9; */
+}
+.btnss a{
+    text-decoration: none;
+    color: white;
+}
+@media  screen and (max-width:1000px) {
+    #para1{
+        padding: 10px 45px;
+        padding-bottom: 0px;
+    }
+    #para2{
+        padding: 10px 45px;
+        padding-bottom: 0px;
+        /* font-size: 400px; */
+    }
+    .byttons{
+        padding: 10px 45px;
+        padding-bottom: 0px;
+    }
+}
+@media  screen and (max-width:500px){
+    #para1{
+        font-size: 25px;
+        padding: 10px 25px;
+        padding-bottom: 0px;
+    }
+    #para2{
+        font-size: 25px;
+        padding: 10px 25px;
+        padding-bottom: 0px;
+    }
+    .byttons{
+        padding: 10px 25px;
+        padding-bottom: 0px;
+    }
+    .btnss{
+        font-size: 15px;
+        /* font-weight: 300; */
+    }
+}
